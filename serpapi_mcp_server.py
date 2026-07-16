@@ -36,7 +36,7 @@ async def list_tools():
                 "properties": {
                     "query": {
                         "type": "string",
-                        "description": "搜索关键词，支持中文。例如：'蔡晋辉 中国计量大学' 或 'machine learning'"
+                        "description": "搜索关键词，支持中文。例如：'machine learning'"
                     },
                     "num_results": {
                         "type": "integer",
